@@ -19,7 +19,10 @@
 - Matplotlib
 - Scipy
 - tqdm
-- pickle
+
+**For mode simulation (pyMMF):**
+- numba
+- joblib
 
 We also used the [`pyMMF`](github.com/wavefrontshaping/pymmf) package to find the modes of the fiber. 
 For consistancy, we use a local version of the package, which is included in the repository in `/pyMMF`.
