@@ -1,15 +1,16 @@
 # Code examples and supporting data for the paper
-# [*Measuring, Analyzing, and Tailoring the Rotational Memory Effect in Multimode Fibers*](https://arxiv.org/abs/XXXX.XXXX)
-## **R. Gutiérrez-Cuevas, A. Goetschy, G. Pelc, E. Ravn Andresen, Y. Bromberg, L. Bigot, Y. Quiquempois, P. Sillard, M. Bigot, O. Katz, J. de Rosny, and S. M. Popoff**
+# [*Tailoring the Rotational Memory Effect in Multimode Fibers*](https://arxiv.org/abs/2310.19337)
+## **R. Gutiérrez-Cuevas, A. Goetschy, G. Pelc, E. Ravn Andresen, L. Bigot, Y. Quiquempois, P. Sillard, M. Bigot, O. Katz, J. de Rosny, and S. M. Popoff**
 
 
 ```
-@article{PhysRevX.11.021060,
-  title = {Measuring, Analyzing, and Tailoring the Rotational Memory Effect in Multimode Fibers},
-  author  = {R. Gutiérrez-Cuevas and A. Goetschy and G. Pelc and E. Ravn Andresen and Y. Bromberg and L. Bigot and Y. Quiquempois and P. Sillard and M. Bigot and O. Katz and J. de Rosny and S. M. Popoff},
-  journal = {arXiv preprint},
-  year    = {2023},
-  url     = {https://arxiv.org/abs/XXXX.XXXX},
+@misc{gutiérrezcuevas2023tailoring,
+      title={Tailoring the Rotational Memory Effect in Multimode Fibers}, 
+      author={Rodrigo Gutiérrez-Cuevas and Arthur Goetschy and Guy Pelc and Esben Ravn Andresen and Laurent Bigot and Yves Quiquempois and Maroun Bsaibes and Pierre Sillard and Marianne Bigot and Julien de Rosny and Sébastien M. Popoff},
+      year={2023},
+      eprint={2310.19337},
+      archivePrefix={arXiv},
+      primaryClass={physics.optics}
 }
 ```
 
