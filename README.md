@@ -29,6 +29,10 @@
 - numba
 - joblib
 
+**For RME channel video creation \[Optional\]:**
+
+- [ffmpeg](https://ffmpeg.org/)
+
 **Raw data files \[Optional\]:**
 
 - Only required to regenerated the curated data files (in [/Data](Data/)) used to produce the results of the paper. Available on Zenodo:
