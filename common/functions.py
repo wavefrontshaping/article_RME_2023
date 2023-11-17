@@ -3,11 +3,28 @@ import matplotlib.pyplot as plt
 from colorsys import hls_to_rgb
 import matplotlib.colors as colors
 from matplotlib.collections import LineCollection
+import re
+import glob
 
 
 ##############################################
 ##### SAVE AND LOAD ARRAYS AS COMPLEX32 ######
 ##############################################
+
+
+def get_files_sorted(pattern):
+    # List all files matching the pattern
+    files = glob.glob(pattern)
+
+    # Sort files based on the extracted number
+    files.sort(key=extract_number)
+
+    return files
+
+
+def extract_number(filename):
+    match = re.search(r"\S+_(\d+).\S+", filename)
+    return int(match.group(1)) if match else None
 
 
 def save_complex32(filename, arr):
