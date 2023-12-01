@@ -60,11 +60,22 @@ i.e. a graded index fiber with parabolic index profile, $NA=0.2$, and a core siz
 
 ### Content of each `<FIBER>` folder:
 
-- `param_small.pkl` is a pickle file containing a dictionnary of the numerous experimental and numerical parameters.
+- `paraml.pkl` is a pickle file containing a dictionnary of the complete experimental and numerical parameters.
+  It corresponds to the metadata of the experiment.
+
+- `param_small.pkl` is a pickle file containing a subset of the complete parameters, we keep only what is useful for the post-treatment.
 
 - `Ys_focus_small.npy` contains the data corresponding to the rotated focus experiment (Fig.1b in the paper).
   We learn to focus on one point and rotate the input wavefront. The output intensity pattern is then recorded for various angles.
   The experiment is repeated for different values of the local deformation applied.
+
+- `Ys_rnd_small_p<pola>_<n>.npz` contains the output fields for rotated random inputs at the output polarization `<pola>` and for the deformation indexed by `<n>`. This data is used to compute the rotational memory effect angular correlation (defined in Eq.1 of the paper).
+
+- `Ys_rm_small.npz` contains the output fields for input wavefronts corresponding to the first singular vectors of the rotational memory effect operators for the different levels of deformation (see section IV and Appendix E of the paper).
+
+- `TMs_mode.npy` contains the transmission matrices of the fiber in the mode basis for different levels of deformation.
+
+- `processed_data.pkl` contains the results of the post-treatment done in [`Experiment_VS_Model.ipynb`](Experiment_VS_Model/Experiment_VS_Model.ipynb).
 
 ## [/Validation_and_tests](Validation_and_tests/)
 
